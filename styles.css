@@ -1,0 +1,22 @@
+#physicDiv{
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 100px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(29, 29, 29);
+}
+
+/* the things that bounce up and down */
+.bouncyPoint{ 
+    position: relative;
+    background-color: red;
+    height: 0.5vw;
+    width: 0.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
